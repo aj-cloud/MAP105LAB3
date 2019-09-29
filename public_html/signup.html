@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Assignment 3</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <main>
+            <h1>Art Store</h1>
+            <nav>
+                <a href="#">Home </a>
+                <a href="#">About us </a>  
+                <a href="#">Art Works</a>
+                <a href="#">Artists </a>
+            </nav>
+            <section>
+                <h2 id="description">Customer Registration</h2>
+                <h3>1. User Info</h3>
+                <hr/>
+                <form method="get" action="http://www.randyconnolly.com/tests/process.php">
+                <table>
+                    <tr>
+                        <td>
+                            First Name
+                        </td>
+                        <td> Last Name</td>
+                    </tr>    
+                    <tr>
+                        <td>
+                            <input type="text" placeholder="First Name" name="first" required>
+                        </td>
+                        <td> <input type="text" placeholder="Last Name" name="last" required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            Email
+                        </td>
+                    </tr>  
+                    <tr>
+                        <td colspan="2"> <input style="width:100%" type="text" placeholder="Enter Email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Password
+                        </td>
+                        <td> Password Repeat</td>
+                    </tr>    
+                    <tr>
+                        <td>
+                            <input type="text" placeholder="Password" name="password" required>
+                        </td>
+                        <td> <input type="text" placeholder="Repeat Password" name="repeat" required></td>
+                    </tr>
+                </table>
+
+            </section>
+            <section>
+                <h3 id="related">2. Location</h3>
+                <hr/>
+                <table>
+                    <tr>
+                        <td colspan="4">
+                            Address
+                        </td>
+                    </tr>    
+                    <tr>
+                        <td colspan="4">
+                            <input style="width:100%" type="text" placeholder="Address" name="address" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            City
+                        </td>
+                        <td>State</td>
+                        <td>Zip</td>
+                    </tr>  
+                    <tr>
+                        <td colspan="2"> <input type="text" placeholder="City" name="City" required></td>
+                        <td> <input type="text" placeholder="State" name="State" required></td>
+                        <td> <input type="text" placeholder="Zip" name="Zip" required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            Phone
+                        </td>
+                        <td colspan="2"> Country</td>
+                    </tr>    
+                    <tr>
+                        <td colspan="2">
+                            <input type="text" placeholder="NNN-NNN-NNNN" name="phone" required>
+                        </td>
+                        <td colspan="2">
+                            <select>        
+                                <option value="Canada">Canada</option>
+                                <option value="India">India</option>
+                                <option value="Cyprus">Cyprus</option>
+                                <option value="USA">USA</option>
+                                <option value="Italy">Italy</option>
+                                <option value="China">China</option>
+                                <option value="German">German</option>
+                                <option value="Spain">Spain</option>
+                                <option value="England">England</option>
+                                <option value="Sri Lanka">Sri Lanka</option>
+                                <option value="Pakistan">Pakistan</option>
+                            </select>
+                        </td>        
+                    </tr>
+                    <tr>
+                        <td>Continent</td></tr>
+                    <tr>
+                        <td><input type="radio" Name="North America" Id="Na" Value="North America"></td>
+                        <td><label for="Na">North America</label></td>
+                    </tr>
+                     <tr>
+                        <td><input type="radio" Name="Europe" Id="Eu" Value="Europe"></td>
+                        <td><label for="Eu">Europe</label></td>
+                    </tr>
+                     <tr>
+                        <td><input type="radio" Name="South America" Id="Sa" Value="South America"></td>
+                        <td><label for="Sa">South America</label></td>
+                    </tr>
+                   
+                </table>
+               
+            </section>
+            <section>
+               
+                <h3 id="reviews">3. Personal Details</h3>
+                <hr/>
+               <table>
+                    <tr>
+                        <td>
+                            Birth Day
+                        </td>
+                        <td> Favorite Color</td>
+                    </tr>    
+                    <tr>
+                        <td>
+                            <input type="date" name="birthdate" required>
+                        </td>
+                        <td> <input type="Color" name="favoritecolor"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            Interest In Art
+                        </td>
+                    </tr>  
+                    <tr>
+                        <td colspan="2"><input style="width:100%" type="range" min='12' Max='72' name="interest" required></td>
+                    </tr>
+                   
+                </table>
+
+            </section>
+             
+                <h3>4. All Done</h3>
+                <hr/>
+                <input type="checkbox"> I agree to the <a href="#">Terms of the Site</a>
+                <br>
+                <button class="btn" name="submit"><img src="button_ok.png" alt=""/>Sign me Up </button>
+               
+               
+        </main>
+
+        <footer>
+           
+        </footer>
+    </body>
+</html>
+
